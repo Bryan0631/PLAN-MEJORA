@@ -1,0 +1,77 @@
+.login-body {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://source.unsplash.com/random/1920x1080/?hotel+lobby,luxury+interior') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-card {
+    max-width: 450px;
+    width: 100%;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.login-card .card-title {
+    color: #212529;
+}
+
+.login-card .form-label {
+    font-weight: 600;
+    color: #495057;
+}
+
+.login-card .form-control {
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+    border-color: #ced4da;
+}
+
+.login-card .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+}
+
+.login-card .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 0.75rem 1.25rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.login-card .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.login-card a {
+    color: #007bff;
+    transition: color 0.3s ease-in-out;
+}
+
+.login-card a:hover {
+    color: #0056b3;
+}
+
+.login-card hr {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.login-card .fa-hotel {
+    color: #007bff;
+}
+
+@media (max-width: 576px) {
+    .login-card {
+        margin: 1rem;
+        padding: 2.5rem 1.5rem !important;
+    }
+}
