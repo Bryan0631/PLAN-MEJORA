@@ -1,1 +1,1 @@
-HOLA COMO ESTAS QUE HACES?
+archivo usado para aprender a usar git hub 
