@@ -1,0 +1,53 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa;
+}
+.navbar {
+    background-color: #003366;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    border-radius: 0 0 10px 10px;
+}
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+.navbar-brand:hover, .nav-link:hover {
+    color: #d4af37 !important;
+}
+.container {
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+.alert {
+    border-radius: 8px;
+    margin-top: 15px;
+}
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.05);
+}
+.btn-primary {
+    background-color: #003366;
+    border-color: #003366;
+    border-radius: 8px;
+}
+.btn-primary:hover {
+    background-color: #002244;
+    border-color: #002244;
+}
+.btn-outline-secondary {
+    border-radius: 8px;
+}
+.form-control {
+    border-radius: 8px;
+}
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
